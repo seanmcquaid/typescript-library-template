@@ -2,9 +2,12 @@
   "name": "awesome-example-package",
   "version": "1.0.12",
   "description": "",
-  "main": "cjs/index.js",
-  "module": "esm/index.js",
-  "types": "index.d.ts",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
     "test": "jest",
     "build": "rollup -c && cp package.json ./dist",
