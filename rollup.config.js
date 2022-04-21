@@ -16,7 +16,7 @@ export default [
         file: packageJson.main,
         format: 'cjs',
         sourcemap: true,
-        name: 'awesome-example-package',
+        name: packageJson.name,
       },
       {
         file: packageJson.module,
