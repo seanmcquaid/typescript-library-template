@@ -5,6 +5,5 @@ Working on refining my configs for typical TS/React Libraries so I am using this
 ## To do
 
 1. Husky commit hooks
-2. Linting - ESLint + Prettier
-3. GHA for publishing on merge
-4. GHA for PR validation
+2. GHA for publishing on merge
+3. GHA for PR validation
