@@ -8,3 +8,4 @@ This is a base template for any new TypeScript + React libraries I build. It is 
 2. Commit the version bump
 3. Run `yarn build`
 4. Run `npm publish`
+5. Your package will now be publicly available on NPM!
