@@ -15,5 +15,5 @@
     "declarationDir": "types",
     "emitDeclarationOnly": true
   },
-  "exclude": ["tests"]
+  "exclude": ["**.test.ts", "**.test.tsx", "**/**.test.ts", "**/**.test.tsx"]
 }

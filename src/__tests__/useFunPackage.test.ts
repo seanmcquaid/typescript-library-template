@@ -1,4 +1,4 @@
-import { useFunPackage } from '../src/useFunPackage';
+import { useFunPackage } from '../useFunPackage';
 
 describe('useFunPackage', () => {
   it('returns a negative number when a positive is provided', () => {
