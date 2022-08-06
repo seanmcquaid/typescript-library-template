@@ -11,7 +11,7 @@
   "scripts": {
     "test": "jest",
     "coverage": "jest --coverage",
-    "build": "rollup -c && cp package.json ./dist",
+    "build": "rollup -c",
     "bundlesize": "bundlesize",
     "lint": "eslint src --max-warnings=0"
   },
