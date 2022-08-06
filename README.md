@@ -7,5 +7,6 @@ This is a base template for any new TypeScript + React libraries I build. It is 
 1. Upgrade the version number of the package
 2. Commit the version bump
 3. Run `yarn build`
-4. Run `npm publish`
-5. Your package will now be publicly available on NPM!
+4. Change into the `dist` directory
+5. Run `npm publish`
+6. Your package will now be publicly available on NPM!
