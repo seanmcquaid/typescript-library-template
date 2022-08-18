@@ -12,16 +12,13 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
-
       - name: Setup Node
         uses: actions/setup-node@v2
         with:
-          node-version: '16'
-
+          node-version: '16.16.0'
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn cache dir)"
-
       - uses: actions/cache@v3
         id: yarn-cache
         with:
@@ -29,19 +26,14 @@ jobs:
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
-
       - name: Install Dependencies
         run: |
           yarn install --frozen-lockfile
-
       - name: Lint
         run: yarn lint
-
       - name: Test
         run: yarn test --ci --coverage --maxWorkers=3
-
       - name: Build
         run: yarn build
-
       - name: Bundle size check
         run: yarn bundlesize
