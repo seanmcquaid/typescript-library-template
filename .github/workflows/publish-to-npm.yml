@@ -4,7 +4,7 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code with Git Tag
+      - name: Checkout repo
         uses: actions/checkout@v2
       - name: Setup Node
         uses: actions/setup-node@v2
