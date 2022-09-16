@@ -12,7 +12,6 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "declaration": true,
-    "declarationDir": "types",
     "emitDeclarationOnly": true
   },
   "exclude": ["**.test.ts", "**.test.tsx", "**/**.test.ts", "**/**.test.tsx"]
