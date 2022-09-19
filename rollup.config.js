@@ -21,6 +21,7 @@ export default [
         file: packageJson.module,
         format: 'esm',
         sourcemap: true,
+        name: packageJson.name,
       },
     ],
     plugins: [
