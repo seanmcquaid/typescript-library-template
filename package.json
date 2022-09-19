@@ -1,6 +1,6 @@
 {
   "name": "awesome-example-package",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "description": "",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
