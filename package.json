@@ -22,7 +22,7 @@
   "peerDependencies": {},
   "devDependencies": {
     "@rollup/plugin-commonjs": "^23.0.0",
-    "@rollup/plugin-node-resolve": "^14.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
     "@rollup/plugin-typescript": "^8.3.2",
     "@typescript-eslint/eslint-plugin": "^5.39.0",
     "@typescript-eslint/parser": "^5.39.0",
