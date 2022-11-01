@@ -1471,9 +1471,9 @@ gzip-size@^5.1.1:
     pify "^4.0.1"
 
 happy-dom@^7.5.10:
-  version "7.5.14"
-  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-7.5.14.tgz#cf78a357e1d64e0058d2dc53472936b4a958b429"
-  integrity sha512-/MXcRnAQSgahOGBQOXr77hJrEpzwEAh9F7P6o7COlUp4o1QwLD/7qQPb55Po3MDeMYQfsEnXfQPT2YXAbKmn2Q==
+  version "7.6.6"
+  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-7.6.6.tgz#f94ce99c5a32d1ea8578b75e8f584e8fcd162513"
+  integrity sha512-28NxRiHXjzhr+BGciLNUoQW4OaBnQPRT/LPYLufh0Fj3Iwh1j9qJaozjBm/Uqdj5Ps4cukevQ7ERieA6Ddwf1g==
   dependencies:
     css.escape "^1.5.1"
     he "^1.2.0"
