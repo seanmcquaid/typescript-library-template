@@ -1,18 +1,15 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "esnext",
+    "target": "es6",
+    "module": "es6",
     "jsx": "react",
     "sourceMap": true,
-    "outDir": "dist",
     "strict": true,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "declaration": true,
-    "emitDeclarationOnly": true
   },
   "exclude": ["**.test.ts", "**.test.tsx", "**/**.test.ts", "**/**.test.tsx", "vite.config.ts"]
 }
