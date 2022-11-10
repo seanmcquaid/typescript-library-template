@@ -17,6 +17,7 @@ export default [
         sourcemap: true,
         name: packageJson.name,
         preserveModules: true,
+        exports: 'named',
       },
       {
         dir: packageJson.module,
