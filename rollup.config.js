@@ -12,30 +12,17 @@ export default [
     input: 'src/index.ts',
     output: [
       {
+        file: packageJson.main,
+        format: 'cjs',
+        sourcemap: true,
+        name: packageJson.name,
+      },
+      {
         dir: 'dist/esm',
         format: 'esm',
         sourcemap: true,
         name: packageJson.name,
         preserveModules: true,
-      },
-    ],
-    plugins: [
-      external(),
-      resolve(),
-      commonjs(),
-      typescript({ tsconfig: './tsconfig.json' }),
-      postcss(),
-      terser(),
-    ],
-  },
-  {
-    input: 'src/index.ts',
-    output: [
-      {
-        file: packageJson.main,
-        format: 'cjs',
-        sourcemap: true,
-        name: packageJson.name,
       },
     ],
     plugins: [
