@@ -4,6 +4,7 @@
   "description": "",
   "main": "dist/cjs",
   "module": "dist/esm",
+  "unpkg": "dist/umd/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "/dist"
