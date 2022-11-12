@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es6",
     "module": "es6",
-    "jsx": "react-jsx",
+    "jsx": "react",
     "sourceMap": true,
     "strict": true,
     "moduleResolution": "node",

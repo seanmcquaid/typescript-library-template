@@ -12,7 +12,7 @@ export default [
     input: 'src/index.ts',
     output: [
       {
-        dir: packageJson.main,
+        dir: 'dist/cjs',
         format: 'cjs',
         sourcemap: true,
         name: packageJson.name,
@@ -26,7 +26,7 @@ export default [
         name: packageJson.name,
       },
       {
-        dir: packageJson.module,
+        dir: 'dist/esm',
         format: 'esm',
         sourcemap: true,
         name: packageJson.name,
