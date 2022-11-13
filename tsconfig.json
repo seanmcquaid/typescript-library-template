@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "module": "es6",
-    "jsx": "react-jsx",
+    "target": "ESNext",
+    "module": "ESNext",
+    "jsx": "react",
     "sourceMap": true,
     "strict": true,
     "moduleResolution": "node",
