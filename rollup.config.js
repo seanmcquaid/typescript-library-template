@@ -20,12 +20,6 @@ export default [
         exports: 'named',
       },
       {
-        file: packageJson.unpkg,
-        format: 'umd',
-        sourcemap: true,
-        name: packageJson.name,
-      },
-      {
         dir: 'dist/esm',
         format: 'esm',
         sourcemap: true,
