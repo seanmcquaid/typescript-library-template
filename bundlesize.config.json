@@ -7,10 +7,6 @@
     {
       "path": "dist/esm/index.js",
       "maxSize": "3 kB"
-    },
-    {
-      "path": "dist/umd/index.js",
-      "maxSize": "3 kB"
     }
   ]
 }
