@@ -13,7 +13,7 @@ jobs:
       - name: Install Dependencies
         run: yarn install --frozen-lockfile
       - name: Build package
-        run: yarn build
+        run: yarn build --bundleConfigAsCjs
       - uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}
