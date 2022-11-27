@@ -40,6 +40,6 @@ export default [
     input: 'src/index.ts',
     output: [{ file: 'dist/index.d.ts' }],
     external: [/\.css$/],
-    plugins: [dts()],
+    plugins: [dts.default()],
   },
 ];
