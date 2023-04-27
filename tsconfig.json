@@ -10,6 +10,13 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist"
   },
-  "exclude": ["**.test.ts", "**.test.tsx", "**/**.test.ts", "**/**.test.tsx", "vite.config.ts"]
+  "exclude": [
+    "**.test.ts",
+    "**.test.tsx",
+    "**/**.test.ts",
+    "**/**.test.tsx",
+    "vite.config.ts"
+  ]
 }
