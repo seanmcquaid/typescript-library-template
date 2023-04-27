@@ -2,6 +2,7 @@
   "name": "typescript-library-template",
   "version": "0.0.1",
   "description": "",
+  "type": "module",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
@@ -18,7 +19,6 @@
   },
   "author": "",
   "license": "ISC",
-  "peerDependencies": {},
   "devDependencies": {
     "@rollup/plugin-commonjs": "^23.0.0",
     "@rollup/plugin-node-resolve": "^15.0.0",
@@ -43,6 +43,6 @@
     "vite": "^3.1.8",
     "vitest": "^0.25.1"
   },
-  "dependencies": {},
-  "sideEffects": false
+  "sideEffects": false,
+  "packageManager": "yarn@3.5.0"
 }
