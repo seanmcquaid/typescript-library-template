@@ -36,5 +36,5 @@
     "vitest": "^0.30.0"
   },
   "sideEffects": false,
-  "packageManager": "yarn@3.5.0"
+  "packageManager": "yarn@3.5.1"
 }
