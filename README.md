@@ -1,6 +1,6 @@
 # TypeScript Library Template
 
-This is a base template for any new TypeScript + React libraries I build. It is using Rollup as a build tool with some appropriate plugins that are common for libraries built with Rollup.
+This is a base template for any new TypeScript + React libraries I build.
 
 ## Publishing a package locally
 
