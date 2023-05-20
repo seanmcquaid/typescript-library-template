@@ -14,11 +14,14 @@
     "coverage": "vitest run --coverage",
     "build": "tsup",
     "bundlesize": "bundlesize",
-    "lint": "eslint src --max-warnings=0 && tsc"
+    "lint": "eslint src --max-warnings=0 && tsc",
+    "changeset": "changeset",
+    "release": "yarn build && changeset publish"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@changesets/cli": "^2.26.1",
     "@typescript-eslint/eslint-plugin": "^5.39.0",
     "@typescript-eslint/parser": "^5.39.0",
     "bundlesize": "^0.18.1",
