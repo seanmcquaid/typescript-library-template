@@ -1,6 +1,6 @@
 # TypeScript Library Template
 
-This is a base template for any new TypeScript + React libraries I build.
+This is a base template for any new TypeScript libraries I build.
 
 ## Publishing a package locally
 
