@@ -17,7 +17,8 @@
     "lint": "eslint src --max-warnings=0 && tsc",
     "changeset": "changeset",
     "release": "pnpm build && changeset publish",
-    "check-package-types": "npm pack && attw --pack"
+    "check-package-types": "npm pack && attw --pack",
+    "prepare": "is-ci || husky install"
   },
   "author": "",
   "license": "ISC",
@@ -33,6 +34,7 @@
     "eslint-plugin-react": "^7.31.9",
     "happy-dom": "^10.0.3",
     "husky": "^8.0.1",
+    "is-ci": "^3.0.1",
     "postcss": "^8.4.17",
     "prettier": "^2.6.2",
     "tsup": "^7.1.0",
