@@ -2,11 +2,4 @@ node_modules
 dist
 .idea
 coverage
-yarn-error.log
-.yarn/*
-.yarn/cache
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
+*.tgz
