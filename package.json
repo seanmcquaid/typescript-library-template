@@ -25,8 +25,8 @@
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.4.2",
     "@changesets/cli": "^2.26.1",
-    "@typescript-eslint/eslint-plugin": "^5.39.0",
-    "@typescript-eslint/parser": "^5.39.0",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
     "@typescript-eslint/typescript-estree": "^5.61.0",
     "bundlesize": "^0.18.1",
     "eslint": "8.44.0",
