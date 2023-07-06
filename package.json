@@ -17,7 +17,7 @@
     "lint": "eslint src --max-warnings=0 && tsc",
     "changeset": "changeset",
     "release": "pnpm build && changeset publish",
-    "check-package-types": "npm pack && attw --pack",
+    "check-types": "npm pack && attw --pack",
     "prepare": "is-ci || husky install"
   },
   "author": "",

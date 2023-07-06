@@ -32,3 +32,5 @@ jobs:
         run: pnpm build
       - name: Bundle size check
         run: pnpm bundlesize
+      - name: Check package types
+        run: pnpm check-types
