@@ -16,7 +16,7 @@
     "bundlesize": "bundlesize",
     "lint": "eslint src --max-warnings=0 && tsc",
     "changeset": "changeset",
-    "release": "yarn build && changeset publish"
+    "release": "pnpm build && changeset publish"
   },
   "author": "",
   "license": "ISC",
@@ -38,6 +38,5 @@
     "vite": "^4.0.0",
     "vitest": "^0.32.0"
   },
-  "sideEffects": false,
-  "packageManager": "yarn@3.5.1"
+  "sideEffects": false
 }

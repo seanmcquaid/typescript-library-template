@@ -6,7 +6,7 @@ This is a base template for any new TypeScript libraries I build.
 
 1. Upgrade the version number of the package
 2. Commit the version bump
-3. Run `yarn build`
+3. Run `pnpm build`
 4. Run `npm publish`
 5. Your package will now be publicly available on NPM!
 
