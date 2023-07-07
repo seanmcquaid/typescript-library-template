@@ -14,7 +14,7 @@
     "coverage": "vitest run --coverage",
     "build": "tsup",
     "bundlesize": "bundlesize",
-    "lint": "eslint src --max-warnings=0 && tsc",
+    "lint": "tsc && eslint src --max-warnings=0",
     "changeset": "changeset",
     "release": "pnpm build && changeset publish",
     "check-types": "npm pack && attw --pack",
