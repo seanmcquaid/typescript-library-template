@@ -14,7 +14,7 @@
     "coverage": "vitest run --coverage",
     "build": "tsup",
     "bundlesize": "bundlesize",
-    "lint": "tsc && eslint src --max-warnings=0",
+    "lint": "eslint src --max-warnings=0",
     "changeset": "changeset",
     "release": "pnpm build && changeset publish",
     "check-types": "npm pack && attw --pack",
@@ -36,12 +36,19 @@
     "happy-dom": "^10.0.3",
     "husky": "^8.0.1",
     "is-ci": "^3.0.1",
+    "lint-staged": "^13.2.3",
     "postcss": "^8.4.17",
     "prettier": "^3.0.0",
     "tsup": "^7.1.0",
     "typescript": "^5.0.0",
     "vite": "^4.0.0",
     "vitest": "^0.33.0"
+  },
+  "lint-staged": {
+    "*.{js,ts,jsx,tsx}": "eslint --fix --max-warnings=0"
+  },
+  "engines": {
+    "node": ">=18.14.1"
   },
   "sideEffects": false
 }
