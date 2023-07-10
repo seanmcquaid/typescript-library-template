@@ -47,15 +47,12 @@ devDependencies:
   lint-staged:
     specifier: ^13.2.3
     version: 13.2.3
-  postcss:
-    specifier: ^8.4.17
-    version: 8.4.25
   prettier:
     specifier: ^3.0.0
     version: 3.0.0
   tsup:
     specifier: ^7.1.0
-    version: 7.1.0(postcss@8.4.25)(typescript@5.0.2)
+    version: 7.1.0(typescript@5.0.2)
   typescript:
     specifier: ^5.0.0
     version: 5.0.2
@@ -3670,7 +3667,7 @@ packages:
       pathe: 1.1.1
     dev: true
 
-  /postcss-load-config@4.0.1(postcss@8.4.25):
+  /postcss-load-config@4.0.1:
     resolution: {integrity: sha512-vEJIc8RdiBRu3oRAI0ymerOn+7rPuMvRXslTvZUKZonDHFIczxztIyJ1urxM1x9JXEikvpWWTUUqal5j/8QgvA==}
     engines: {node: '>= 14'}
     peerDependencies:
@@ -3683,7 +3680,6 @@ packages:
         optional: true
     dependencies:
       lilconfig: 2.1.0
-      postcss: 8.4.25
       yaml: 2.3.1
     dev: true
 
@@ -4504,7 +4500,7 @@ packages:
     resolution: {integrity: sha512-7At1WUettjcSRHXCyYtTselblcHl9PJFFVKiCAy/bY97+BPZXSQ2wbq0P9s8tK2G7dFQfNnlJnPAiArVBVBsfA==}
     dev: true
 
-  /tsup@7.1.0(postcss@8.4.25)(typescript@5.0.2):
+  /tsup@7.1.0(typescript@5.0.2):
     resolution: {integrity: sha512-mazl/GRAk70j8S43/AbSYXGgvRP54oQeX8Un4iZxzATHt0roW0t6HYDVZIXMw0ZQIpvr1nFMniIVnN5186lW7w==}
     engines: {node: '>=16.14'}
     hasBin: true
@@ -4528,8 +4524,7 @@ packages:
       execa: 5.1.1
       globby: 11.1.0
       joycon: 3.1.1
-      postcss: 8.4.25
-      postcss-load-config: 4.0.1(postcss@8.4.25)
+      postcss-load-config: 4.0.1
       resolve-from: 5.0.0
       rollup: 3.26.2
       source-map: 0.8.0-beta.0
