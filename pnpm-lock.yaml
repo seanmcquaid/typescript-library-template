@@ -51,7 +51,7 @@ devDependencies:
     version: 7.33.1(eslint@8.46.0)
   happy-dom:
     specifier: ^10.0.3
-    version: 10.5.2
+    version: 10.9.0
   husky:
     specifier: ^8.0.1
     version: 8.0.3
@@ -75,7 +75,7 @@ devDependencies:
     version: 4.4.8(@types/node@20.4.0)
   vitest:
     specifier: ^0.34.1
-    version: 0.34.1(happy-dom@10.5.2)
+    version: 0.34.1(happy-dom@10.9.0)
 
 packages:
 
@@ -2410,8 +2410,8 @@ packages:
       pify: 3.0.0
     dev: true
 
-  /happy-dom@10.5.2:
-    resolution: {integrity: sha512-dTA1cDcLOPIkAdykLd9Wo1k8Ly36Hh2OdKGkWEHWuAHb89KcVVRLSj1OFev7ir90xhRLSGCGrEdDvS6u9l13kg==}
+  /happy-dom@10.9.0:
+    resolution: {integrity: sha512-SGZ8QqSNDVkWt5T7GNACKS+CpGvr58OKurqCR1iH371dMgpXyUI2tJA91cASG6fe2d5xYnVFOgOwx4MmOaXepw==}
     dependencies:
       css.escape: 1.5.1
       entities: 4.5.0
@@ -4631,7 +4631,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest@0.34.1(happy-dom@10.5.2):
+  /vitest@0.34.1(happy-dom@10.9.0):
     resolution: {integrity: sha512-G1PzuBEq9A75XSU88yO5G4vPT20UovbC/2osB2KEuV/FisSIIsw7m5y2xMdB7RsAGHAfg2lPmp2qKr3KWliVlQ==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -4675,7 +4675,7 @@ packages:
       cac: 6.7.14
       chai: 4.3.7
       debug: 4.3.4
-      happy-dom: 10.5.2
+      happy-dom: 10.9.0
       local-pkg: 0.4.3
       magic-string: 0.30.1
       pathe: 1.1.1
