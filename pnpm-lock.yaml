@@ -15,7 +15,7 @@ dependencies:
 devDependencies:
   '@arethetypeswrong/cli':
     specifier: ^0.7.0
-    version: 0.7.0
+    version: 0.7.1
   '@changesets/cli':
     specifier: ^2.26.1
     version: 2.26.2
@@ -88,8 +88,8 @@ packages:
     resolution: {integrity: sha512-hL80MHK3b++pEp6K23+Nl5r5D1F19DRagp2ruCBIv4McyCiLKq67vUNvEQY1aGCAKNZ8GxV23n5MhOm7RwO8Pg==}
     dev: true
 
-  /@arethetypeswrong/cli@0.7.0:
-    resolution: {integrity: sha512-fNX9abfPkhYPUlfSI38L0TtbJWIIGuMF1TQsnw9GzAeg6FFWEj5HYoI0pRj049p++BgM9/ikRy1RS2BBDkCHXQ==}
+  /@arethetypeswrong/cli@0.7.1:
+    resolution: {integrity: sha512-iSpoJV+8cXrr4fN0ZB/XCd4nFraGe+jYYWY880fLRqoMvmgQvyiKykER2JuTKtIhk7/3h9WVX/Srm4HLUEA8gg==}
     hasBin: true
     dependencies:
       '@arethetypeswrong/core': 0.7.0
@@ -98,6 +98,7 @@ packages:
       commander: 10.0.1
       marked: 5.1.0
       marked-terminal: 5.2.0(marked@5.1.0)
+      node-fetch: 2.6.12
     transitivePeerDependencies:
       - encoding
     dev: true
